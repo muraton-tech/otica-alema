@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
+	  <script src="https://kit.fontawesome.com/7985bda0f9.js"></script>
     </html>
   );
 }
